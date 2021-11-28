@@ -1,8 +1,8 @@
-
+import '../Styles/Components/Pages/Contacto.css'
 const ContactoPage = (props) => {
     return (
         <main className="holder">
-            <div className="columna contacto">
+            <div className="columna left">
                 <h2>Complete el siguiente formulario</h2>
                 <form action="" method="" className="formulario">
                     <p>
@@ -26,7 +26,7 @@ const ContactoPage = (props) => {
                     </p>
                 </form>
             </div>
-            <div className="columna datos">
+            <div className="columna right">
                 <h2>Otras vias de contacto</h2>
                 <p>Tambien puede contactarse con nosotros usando los siguientes medios:</p>
                 <ul>
@@ -35,7 +35,7 @@ const ContactoPage = (props) => {
                     <li>Facebook:</li>
                     <li>Twitter</li>
                     <li>Skype</li>
-                    <li>Instagram</li>
+                    <li>Instagramr</li>
                 </ul>
             </div> 
         </main>

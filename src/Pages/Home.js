@@ -1,3 +1,4 @@
+import '../Styles/Components/Pages/Home.css'
 
 const HomePage = (props) => {
     return (

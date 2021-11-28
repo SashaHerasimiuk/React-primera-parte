@@ -1,4 +1,4 @@
-
+import '../Styles/Components/Pages/Nosotros.css'
 
 const NosotrosPage = (props) => {
     return (
